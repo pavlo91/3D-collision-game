@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Bandizip\;C:\Users\Administrator\AppData\Local\Android\Sdk\tools;C:\Users\Administrator\AppData\Local\jdk-11.0.2\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files (x86)\BrowserStackLocal\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.1.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "name": "react-three-fiber-boilerplate-follow-cam",
+    "version": "1.0.0",
+    "description": "R3F Course : https://sbcode.net/react-three-fiber/ \n\nCoupons : https://sbcode.net/coupons \n",
+    "keywords": [],
+    "main": "src/index.jsx",
+    "dependencies": {
+      "@react-three/cannon": "6.6.0",
+      "@react-three/drei": "9.83.9",
+      "@react-three/fiber": "8.14.6",
+      "leva": "0.9.35",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "three": "0.157.0",
+      "zustand": "4.4.3"
+    },
+    "scripts": {
+      "start": "r3f-pack start",
+      "build": "r3f-pack build"
+    },
+    "devDependencies": {
+      "r3f-pack": "^2.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
